@@ -1,0 +1,15 @@
+header {
+    background-color: grey;
+    padding: 50px;
+    border: none;
+}
+
+main {
+    background: lightgray;
+    width: 30px;
+    margin-top: 30px;
+}
+
+.main-color {
+    color: grey;
+}
