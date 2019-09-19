@@ -1,15 +1,36 @@
 header {
-    background-color: grey;
+    background-color: dimgray;
     padding: 50px;
     border: none;
 }
 
-main {
-    background: lightgray;
-    width: 30px;
-    margin-top: 30px;
+.header-color {
+    color: dimgray;
 }
 
-.main-color {
-    color: grey;
+.left {
+    float: left;
+    background-color: gainsboro;
+    color: gainsboro;
+    padding-bottom: 100vh;
+    width: 25vh;
 }
+
+.right {
+    float: right;
+    background-color: darkgray;
+    color: darkgray;
+    padding-bottom: 100vh;
+    width: 25vh;
+}
+
+.border-bottom {
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    width: 100vh;
+    height: 10vh;
+    
+}
+
+
