@@ -44,19 +44,30 @@
 }
 
 .yellow {
-    position: absolute;
+    /* position: absolute; */
     width: 70vw;
     height: 20vh;
     background: rgb(255, 250, 205);
-    margin-left: 10vw;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 2.5vh;
     box-shadow: 5px, 5px, 15px, 5px #000000;
 }
 
 .bottom {
-
+    box-shadow: 5px, 5px, 15px, 5px black;
+    border: 1px solid black;
+    width: 50vw;
+    height: 20vh;
+    margin-top: 1vh;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 5%;
 }
 
 .bottom p{
-
+    margin: 0;
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
 }
